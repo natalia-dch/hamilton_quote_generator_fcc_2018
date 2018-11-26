@@ -35,7 +35,7 @@ let tweet = arr[this.props.quoteNum].join("\n");
 let tweetURL="https://twitter.com/intent/tweet?hashtags=ham_generator&text=" +
 encodeURIComponent(tweet);
 return <a
-href={tweetURL} target="_blank" id="tweet-quote">> tweet this quote < /a>
+href={tweetURL} target="_blank" id="tweet-quote" rel="noopener noreferrer">> tweet this quote < /a>
 }
 }
 
