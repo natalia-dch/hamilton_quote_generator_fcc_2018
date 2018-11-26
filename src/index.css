@@ -1,0 +1,71 @@
+body {
+background-color: #F3BE40;
+font-family: 'Crimson Text', serif;
+font-size: 1.8vw;
+text-align: center;
+}
+img{
+position: absolute;
+width:7vw;
+height:auto;
+top:1vw;
+left:1vw;
+}
+#quote-box{
+  height:75vh;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#quoteDiv{
+height: 60vh;
+}
+button{
+background-color: rgba(0,0,0,0);
+border:none;
+font-family: 'Crimson Text', serif;
+font-size: 1.8vw;
+display:block;
+padding:0px;
+cursor:pointer;
+outline:none;}
+button:hover{
+font-size: 1.9vw;
+}
+
+#quote-box a{
+  font-family: 'Crimson Text', serif;
+  font-size: 1.8vw;
+  display:block;
+  text-decoration: none;
+  color: #000;
+  text-align: left;
+}
+#quote-box a:hover{
+font-size: 1.9vw;
+}
+#btnDiv{
+position:absolute;
+top: 70vh;
+left:80vw;
+}
+
+@media(max-width:500px){
+body{
+font-size:3.5vw;
+}
+button{
+font-size:3.5vw;
+}
+#quote-box a{
+font-size:3.5vw;
+}
+#btnDiv{
+position:absolute;
+top: 70vh;
+left:50vw;
+}
+}
